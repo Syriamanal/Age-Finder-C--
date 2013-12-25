@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+
 using namespace std;
 
 
@@ -39,11 +39,7 @@ else
 {
     //This will procec when age is bellow 14...
     cout << endl;
-    cout << "Your to young!" << endl;
+    cout << "Your to young!\a";
+    cout << "You need to do your homework!\a" << endl;
 }
-
-// String 
-string AgeString;
-    AgeString = "You need to do your homework!";
-    cout << AgeString <<endl;
 }

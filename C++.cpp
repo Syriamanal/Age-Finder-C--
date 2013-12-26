@@ -9,10 +9,10 @@ int main()
 int age;
 
 //This will ask you to enter your age...
-cout << "Enter Your age..." << endl;
+    cout << "Enter Your age..." << endl;
     cout << endl;
-cin >> age;
-cout << "You have entered " << age << "!" <<endl;
+    cin >> age;
+    cout << "You have entered " << age << "!" <<endl;
 
 //This will be the output...
 if(age == 18)
